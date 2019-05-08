@@ -1,0 +1,3518 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "is7h-kp6x",
+      "name" : "Maryland Counties Socioeconomic Characteristics",
+      "attribution" : "Maryland Department of Planning",
+      "attributionLink" : "http://planning.maryland.gov/msdc/American_Community_Survey/2012-2016/County/County.shtml",
+      "averageRating" : 0,
+      "category" : "Demographic",
+      "createdAt" : 1519141548,
+      "description" : "Data for population, gender, race, labor force, educational attainment, income, poverty, households and housing units",
+      "displayType" : "table",
+      "downloadCount" : 267,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1539709675,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "locale" : "en_US",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 29581488,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1535480628,
+      "publicationGroup" : 14891540,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1535480595,
+      "rowsUpdatedBy" : "85mq-rt9c",
+      "tableId" : 15479746,
+      "totalTimesRated" : 0,
+      "viewCount" : 80,
+      "viewLastModified" : 1539709669,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 372765682,
+        "name" : "Jurisdictions",
+        "dataTypeName" : "text",
+        "fieldName" : "jurisdictions",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 61516795,
+        "width" : 256,
+        "cachedContents" : {
+          "largest" : "Worcester County",
+          "non_null" : 24,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Allegany County",
+            "count" : 20
+          }, {
+            "item" : "Anne Arundel County",
+            "count" : 19
+          }, {
+            "item" : "Baltimore County",
+            "count" : 18
+          }, {
+            "item" : "Calvert County",
+            "count" : 17
+          }, {
+            "item" : "Caroline County",
+            "count" : 16
+          }, {
+            "item" : "Carroll County",
+            "count" : 15
+          }, {
+            "item" : "Cecil County",
+            "count" : 14
+          }, {
+            "item" : "Charles County",
+            "count" : 13
+          }, {
+            "item" : "Dorchester County",
+            "count" : 12
+          }, {
+            "item" : "Frederick County",
+            "count" : 11
+          }, {
+            "item" : "Garrett County",
+            "count" : 10
+          }, {
+            "item" : "Harford County",
+            "count" : 9
+          }, {
+            "item" : "Howard County",
+            "count" : 8
+          }, {
+            "item" : "Kent County",
+            "count" : 7
+          }, {
+            "item" : "Montgomery County",
+            "count" : 6
+          }, {
+            "item" : "Prince George's County",
+            "count" : 5
+          }, {
+            "item" : "Queen Anne's County",
+            "count" : 4
+          }, {
+            "item" : "St. Mary's County",
+            "count" : 3
+          }, {
+            "item" : "Somerset County",
+            "count" : 2
+          }, {
+            "item" : "Talbot County",
+            "count" : 1
+          } ],
+          "smallest" : "Allegany County"
+        },
+        "format" : { }
+      }, {
+        "id" : 372765683,
+        "name" : "Total Households",
+        "dataTypeName" : "number",
+        "fieldName" : "total_households",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516796,
+        "width" : 292,
+        "cachedContents" : {
+          "largest" : "367764",
+          "non_null" : 24,
+          "average" : "90728.83333333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "28167",
+            "count" : 20
+          }, {
+            "item" : "204829",
+            "count" : 19
+          }, {
+            "item" : "312826",
+            "count" : 18
+          }, {
+            "item" : "31479",
+            "count" : 17
+          }, {
+            "item" : "12010",
+            "count" : 16
+          }, {
+            "item" : "60449",
+            "count" : 15
+          }, {
+            "item" : "36993",
+            "count" : 14
+          }, {
+            "item" : "54105",
+            "count" : 13
+          }, {
+            "item" : "13206",
+            "count" : 12
+          }, {
+            "item" : "88995",
+            "count" : 11
+          }, {
+            "item" : "11644",
+            "count" : 10
+          }, {
+            "item" : "92497",
+            "count" : 9
+          }, {
+            "item" : "109872",
+            "count" : 8
+          }, {
+            "item" : "7683",
+            "count" : 7
+          }, {
+            "item" : "367764",
+            "count" : 6
+          }, {
+            "item" : "306711",
+            "count" : 5
+          }, {
+            "item" : "17785",
+            "count" : 4
+          }, {
+            "item" : "38978",
+            "count" : 3
+          }, {
+            "item" : "8328",
+            "count" : 2
+          }, {
+            "item" : "16481",
+            "count" : 1
+          } ],
+          "smallest" : "7683",
+          "sum" : "2177492"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765684,
+        "name" : "Population 25 years and older",
+        "dataTypeName" : "number",
+        "fieldName" : "population_25_years_and_older",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516797,
+        "width" : 448,
+        "cachedContents" : {
+          "largest" : "703977",
+          "non_null" : 24,
+          "average" : "168859.9583333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "50793",
+            "count" : 20
+          }, {
+            "item" : "382657",
+            "count" : 19
+          }, {
+            "item" : "569088",
+            "count" : 18
+          }, {
+            "item" : "60627",
+            "count" : 17
+          }, {
+            "item" : "22037",
+            "count" : 16
+          }, {
+            "item" : "114734",
+            "count" : 15
+          }, {
+            "item" : "69319",
+            "count" : 14
+          }, {
+            "item" : "101706",
+            "count" : 13
+          }, {
+            "item" : "23113",
+            "count" : 12
+          }, {
+            "item" : "163563",
+            "count" : 11
+          }, {
+            "item" : "21250",
+            "count" : 10
+          }, {
+            "item" : "171128",
+            "count" : 9
+          }, {
+            "item" : "207335",
+            "count" : 8
+          }, {
+            "item" : "13928",
+            "count" : 7
+          }, {
+            "item" : "703977",
+            "count" : 6
+          }, {
+            "item" : "597885",
+            "count" : 5
+          }, {
+            "item" : "34080",
+            "count" : 4
+          }, {
+            "item" : "72507",
+            "count" : 3
+          }, {
+            "item" : "16959",
+            "count" : 2
+          }, {
+            "item" : "28138",
+            "count" : 1
+          } ],
+          "smallest" : "13928",
+          "sum" : "4052639"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765685,
+        "name" : "Less than 9th Grade",
+        "dataTypeName" : "number",
+        "fieldName" : "less_than_9th_grade",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516798,
+        "width" : 328,
+        "cachedContents" : {
+          "largest" : "44633",
+          "non_null" : 24,
+          "average" : "6939.208333333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1454",
+            "count" : 20
+          }, {
+            "item" : "8852",
+            "count" : 19
+          }, {
+            "item" : "18308",
+            "count" : 18
+          }, {
+            "item" : "1065",
+            "count" : 17
+          }, {
+            "item" : "1291",
+            "count" : 16
+          }, {
+            "item" : "2440",
+            "count" : 15
+          }, {
+            "item" : "2170",
+            "count" : 14
+          }, {
+            "item" : "2319",
+            "count" : 13
+          }, {
+            "item" : "993",
+            "count" : 12
+          }, {
+            "item" : "4507",
+            "count" : 11
+          }, {
+            "item" : "806",
+            "count" : 10
+          }, {
+            "item" : "4013",
+            "count" : 9
+          }, {
+            "item" : "4262",
+            "count" : 8
+          }, {
+            "item" : "672",
+            "count" : 7
+          }, {
+            "item" : "35413",
+            "count" : 6
+          }, {
+            "item" : "44633",
+            "count" : 5
+          }, {
+            "item" : "744",
+            "count" : 4
+          }, {
+            "item" : "2192",
+            "count" : 3
+          }, {
+            "item" : "944",
+            "count" : 2
+          }, {
+            "item" : "1057",
+            "count" : 1
+          } ],
+          "smallest" : "672",
+          "sum" : "166541"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765686,
+        "name" : "High School no Diploma",
+        "dataTypeName" : "number",
+        "fieldName" : "high_school_no_diploma",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516799,
+        "width" : 364,
+        "cachedContents" : {
+          "largest" : "48234",
+          "non_null" : 24,
+          "average" : "10592.29166666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4089",
+            "count" : 20
+          }, {
+            "item" : "22100",
+            "count" : 19
+          }, {
+            "item" : "33161",
+            "count" : 18
+          }, {
+            "item" : "3001",
+            "count" : 17
+          }, {
+            "item" : "2389",
+            "count" : 16
+          }, {
+            "item" : "6631",
+            "count" : 15
+          }, {
+            "item" : "6050",
+            "count" : 14
+          }, {
+            "item" : "4984",
+            "count" : 13
+          }, {
+            "item" : "2465",
+            "count" : 12
+          }, {
+            "item" : "7670",
+            "count" : 11
+          }, {
+            "item" : "1632",
+            "count" : 10
+          }, {
+            "item" : "8377",
+            "count" : 9
+          }, {
+            "item" : "5419",
+            "count" : 8
+          }, {
+            "item" : "1099",
+            "count" : 7
+          }, {
+            "item" : "26792",
+            "count" : 6
+          }, {
+            "item" : "40181",
+            "count" : 5
+          }, {
+            "item" : "2132",
+            "count" : 4
+          }, {
+            "item" : "5145",
+            "count" : 3
+          }, {
+            "item" : "2591",
+            "count" : 2
+          }, {
+            "item" : "1992",
+            "count" : 1
+          } ],
+          "smallest" : "1099",
+          "sum" : "254215"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765687,
+        "name" : "High School Diploma",
+        "dataTypeName" : "number",
+        "fieldName" : "high_school_diploma",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516800,
+        "width" : 328,
+        "cachedContents" : {
+          "largest" : "154724",
+          "non_null" : 24,
+          "average" : "42929.375",
+          "null" : 0,
+          "top" : [ {
+            "item" : "21302",
+            "count" : 20
+          }, {
+            "item" : "93862",
+            "count" : 19
+          }, {
+            "item" : "154724",
+            "count" : 18
+          }, {
+            "item" : "18704",
+            "count" : 17
+          }, {
+            "item" : "9207",
+            "count" : 16
+          }, {
+            "item" : "35112",
+            "count" : 15
+          }, {
+            "item" : "26015",
+            "count" : 14
+          }, {
+            "item" : "32896",
+            "count" : 13
+          }, {
+            "item" : "8907",
+            "count" : 12
+          }, {
+            "item" : "41251",
+            "count" : 11
+          }, {
+            "item" : "9007",
+            "count" : 10
+          }, {
+            "item" : "47611",
+            "count" : 9
+          }, {
+            "item" : "29129",
+            "count" : 8
+          }, {
+            "item" : "4582",
+            "count" : 7
+          }, {
+            "item" : "98816",
+            "count" : 6
+          }, {
+            "item" : "154686",
+            "count" : 5
+          }, {
+            "item" : "10168",
+            "count" : 4
+          }, {
+            "item" : "21929",
+            "count" : 3
+          }, {
+            "item" : "7075",
+            "count" : 2
+          }, {
+            "item" : "7378",
+            "count" : 1
+          } ],
+          "smallest" : "4582",
+          "sum" : "1030305"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765688,
+        "name" : "Some College no degree",
+        "dataTypeName" : "number",
+        "fieldName" : "some_college_no_degree",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516801,
+        "width" : 364,
+        "cachedContents" : {
+          "largest" : "135389",
+          "non_null" : 24,
+          "average" : "32707",
+          "null" : 0,
+          "top" : [ {
+            "item" : "9999",
+            "count" : 20
+          }, {
+            "item" : "78474",
+            "count" : 19
+          }, {
+            "item" : "111102",
+            "count" : 18
+          }, {
+            "item" : "15532",
+            "count" : 17
+          }, {
+            "item" : "4171",
+            "count" : 16
+          }, {
+            "item" : "23194",
+            "count" : 15
+          }, {
+            "item" : "14423",
+            "count" : 14
+          }, {
+            "item" : "25597",
+            "count" : 13
+          }, {
+            "item" : "4576",
+            "count" : 12
+          }, {
+            "item" : "32627",
+            "count" : 11
+          }, {
+            "item" : "3971",
+            "count" : 10
+          }, {
+            "item" : "38363",
+            "count" : 9
+          }, {
+            "item" : "30387",
+            "count" : 8
+          }, {
+            "item" : "2511",
+            "count" : 7
+          }, {
+            "item" : "97786",
+            "count" : 6
+          }, {
+            "item" : "135389",
+            "count" : 5
+          }, {
+            "item" : "6222",
+            "count" : 4
+          }, {
+            "item" : "15739",
+            "count" : 3
+          }, {
+            "item" : "3233",
+            "count" : 2
+          }, {
+            "item" : "5786",
+            "count" : 1
+          } ],
+          "smallest" : "2511",
+          "sum" : "784968"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765689,
+        "name" : "Associates degree",
+        "dataTypeName" : "number",
+        "fieldName" : "associates_degree",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516802,
+        "width" : 304,
+        "cachedContents" : {
+          "largest" : "40101",
+          "non_null" : 24,
+          "average" : "10829.125",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4825",
+            "count" : 20
+          }, {
+            "item" : "28736",
+            "count" : 19
+          }, {
+            "item" : "40101",
+            "count" : 18
+          }, {
+            "item" : "4570",
+            "count" : 17
+          }, {
+            "item" : "1608",
+            "count" : 16
+          }, {
+            "item" : "8690",
+            "count" : 15
+          }, {
+            "item" : "5070",
+            "count" : 14
+          }, {
+            "item" : "8080",
+            "count" : 13
+          }, {
+            "item" : "1372",
+            "count" : 12
+          }, {
+            "item" : "12514",
+            "count" : 11
+          }, {
+            "item" : "1745",
+            "count" : 10
+          }, {
+            "item" : "13782",
+            "count" : 9
+          }, {
+            "item" : "11572",
+            "count" : 8
+          }, {
+            "item" : "810",
+            "count" : 7
+          }, {
+            "item" : "36121",
+            "count" : 6
+          }, {
+            "item" : "34936",
+            "count" : 5
+          }, {
+            "item" : "2895",
+            "count" : 4
+          }, {
+            "item" : "5821",
+            "count" : 3
+          }, {
+            "item" : "746",
+            "count" : 2
+          }, {
+            "item" : "1842",
+            "count" : 1
+          } ],
+          "smallest" : "746",
+          "sum" : "259899"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765690,
+        "name" : "Bachelor's degree",
+        "dataTypeName" : "number",
+        "fieldName" : "bachelor_s_degree",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516803,
+        "width" : 304,
+        "cachedContents" : {
+          "largest" : "186973",
+          "non_null" : 24,
+          "average" : "34947.16666666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4733",
+            "count" : 20
+          }, {
+            "item" : "88157",
+            "count" : 19
+          }, {
+            "item" : "121891",
+            "count" : 18
+          }, {
+            "item" : "10038",
+            "count" : 17
+          }, {
+            "item" : "2112",
+            "count" : 16
+          }, {
+            "item" : "24569",
+            "count" : 15
+          }, {
+            "item" : "9415",
+            "count" : 14
+          }, {
+            "item" : "16756",
+            "count" : 13
+          }, {
+            "item" : "2928",
+            "count" : 12
+          }, {
+            "item" : "38413",
+            "count" : 11
+          }, {
+            "item" : "2205",
+            "count" : 10
+          }, {
+            "item" : "35441",
+            "count" : 9
+          }, {
+            "item" : "62207",
+            "count" : 8
+          }, {
+            "item" : "2299",
+            "count" : 7
+          }, {
+            "item" : "186973",
+            "count" : 6
+          }, {
+            "item" : "107860",
+            "count" : 5
+          }, {
+            "item" : "7229",
+            "count" : 4
+          }, {
+            "item" : "12584",
+            "count" : 3
+          }, {
+            "item" : "1356",
+            "count" : 2
+          }, {
+            "item" : "5392",
+            "count" : 1
+          } ],
+          "smallest" : "1356",
+          "sum" : "838732"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765691,
+        "name" : "Graduate or Professional",
+        "dataTypeName" : "number",
+        "fieldName" : "graduate_or_professional",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516804,
+        "width" : 388,
+        "cachedContents" : {
+          "largest" : "222076",
+          "non_null" : 24,
+          "average" : "29915.79166666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4391",
+            "count" : 20
+          }, {
+            "item" : "62476",
+            "count" : 19
+          }, {
+            "item" : "89801",
+            "count" : 18
+          }, {
+            "item" : "7717",
+            "count" : 17
+          }, {
+            "item" : "1259",
+            "count" : 16
+          }, {
+            "item" : "14098",
+            "count" : 15
+          }, {
+            "item" : "6176",
+            "count" : 14
+          }, {
+            "item" : "11074",
+            "count" : 13
+          }, {
+            "item" : "1872",
+            "count" : 12
+          }, {
+            "item" : "26581",
+            "count" : 11
+          }, {
+            "item" : "1884",
+            "count" : 10
+          }, {
+            "item" : "23541",
+            "count" : 9
+          }, {
+            "item" : "64359",
+            "count" : 8
+          }, {
+            "item" : "1955",
+            "count" : 7
+          }, {
+            "item" : "222076",
+            "count" : 6
+          }, {
+            "item" : "80200",
+            "count" : 5
+          }, {
+            "item" : "4690",
+            "count" : 4
+          }, {
+            "item" : "9097",
+            "count" : 3
+          }, {
+            "item" : "1014",
+            "count" : 2
+          }, {
+            "item" : "4691",
+            "count" : 1
+          } ],
+          "smallest" : "1014",
+          "sum" : "717979"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765692,
+        "name" : "Employment Status of the Population 16 years and over",
+        "dataTypeName" : "number",
+        "fieldName" : "employment_status_of_the_population_16_years_and_over",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516805,
+        "width" : 700,
+        "cachedContents" : {
+          "largest" : "811165",
+          "non_null" : 24,
+          "average" : "198537.5416666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "61696",
+            "count" : 20
+          }, {
+            "item" : "446935",
+            "count" : 19
+          }, {
+            "item" : "667650",
+            "count" : 18
+          }, {
+            "item" : "71413",
+            "count" : 17
+          }, {
+            "item" : "25747",
+            "count" : 16
+          }, {
+            "item" : "135072",
+            "count" : 15
+          }, {
+            "item" : "80777",
+            "count" : 14
+          }, {
+            "item" : "120875",
+            "count" : 13
+          }, {
+            "item" : "26350",
+            "count" : 12
+          }, {
+            "item" : "192078",
+            "count" : 11
+          }, {
+            "item" : "24658",
+            "count" : 10
+          }, {
+            "item" : "199608",
+            "count" : 9
+          }, {
+            "item" : "241509",
+            "count" : 8
+          }, {
+            "item" : "16817",
+            "count" : 7
+          }, {
+            "item" : "811165",
+            "count" : 6
+          }, {
+            "item" : "715768",
+            "count" : 5
+          }, {
+            "item" : "39204",
+            "count" : 4
+          }, {
+            "item" : "86260",
+            "count" : 3
+          }, {
+            "item" : "22097",
+            "count" : 2
+          }, {
+            "item" : "31511",
+            "count" : 1
+          } ],
+          "smallest" : "16817",
+          "sum" : "4764901"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765693,
+        "name" : "Civilian Labor Force (16 years & over)",
+        "dataTypeName" : "number",
+        "fieldName" : "civilian_labor_force_16_years_over",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516806,
+        "width" : 556,
+        "cachedContents" : {
+          "largest" : "578875",
+          "non_null" : 24,
+          "average" : "134243.2916666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "32412",
+            "count" : 20
+          }, {
+            "item" : "303581",
+            "count" : 19
+          }, {
+            "item" : "443325",
+            "count" : 18
+          }, {
+            "item" : "49073",
+            "count" : 17
+          }, {
+            "item" : "16663",
+            "count" : 16
+          }, {
+            "item" : "92719",
+            "count" : 15
+          }, {
+            "item" : "53155",
+            "count" : 14
+          }, {
+            "item" : "81852",
+            "count" : 13
+          }, {
+            "item" : "16928",
+            "count" : 12
+          }, {
+            "item" : "135872",
+            "count" : 11
+          }, {
+            "item" : "14821",
+            "count" : 10
+          }, {
+            "item" : "136014",
+            "count" : 9
+          }, {
+            "item" : "173462",
+            "count" : 8
+          }, {
+            "item" : "9640",
+            "count" : 7
+          }, {
+            "item" : "578875",
+            "count" : 6
+          }, {
+            "item" : "510407",
+            "count" : 5
+          }, {
+            "item" : "26751",
+            "count" : 4
+          }, {
+            "item" : "56773",
+            "count" : 3
+          }, {
+            "item" : "9020",
+            "count" : 2
+          }, {
+            "item" : "18716",
+            "count" : 1
+          } ],
+          "smallest" : "9020",
+          "sum" : "3221839"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765694,
+        "name" : "Employed",
+        "dataTypeName" : "number",
+        "fieldName" : "employed",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516807,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "545236",
+          "non_null" : 24,
+          "average" : "125239.7083333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "29357",
+            "count" : 20
+          }, {
+            "item" : "286787",
+            "count" : 19
+          }, {
+            "item" : "416908",
+            "count" : 18
+          }, {
+            "item" : "45239",
+            "count" : 17
+          }, {
+            "item" : "15410",
+            "count" : 16
+          }, {
+            "item" : "88560",
+            "count" : 15
+          }, {
+            "item" : "49666",
+            "count" : 14
+          }, {
+            "item" : "77775",
+            "count" : 13
+          }, {
+            "item" : "15222",
+            "count" : 12
+          }, {
+            "item" : "128721",
+            "count" : 11
+          }, {
+            "item" : "13995",
+            "count" : 10
+          }, {
+            "item" : "127908",
+            "count" : 9
+          }, {
+            "item" : "165567",
+            "count" : 8
+          }, {
+            "item" : "9100",
+            "count" : 7
+          }, {
+            "item" : "545236",
+            "count" : 6
+          }, {
+            "item" : "469724",
+            "count" : 5
+          }, {
+            "item" : "25592",
+            "count" : 4
+          }, {
+            "item" : "54271",
+            "count" : 3
+          }, {
+            "item" : "8263",
+            "count" : 2
+          }, {
+            "item" : "17595",
+            "count" : 1
+          } ],
+          "smallest" : "8263",
+          "sum" : "3005753"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765695,
+        "name" : "Unemployed",
+        "dataTypeName" : "number",
+        "fieldName" : "unemployed",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516808,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : "40683",
+          "non_null" : 24,
+          "average" : "9003.583333333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3055",
+            "count" : 20
+          }, {
+            "item" : "16794",
+            "count" : 19
+          }, {
+            "item" : "26417",
+            "count" : 18
+          }, {
+            "item" : "3834",
+            "count" : 17
+          }, {
+            "item" : "1253",
+            "count" : 16
+          }, {
+            "item" : "4159",
+            "count" : 15
+          }, {
+            "item" : "3489",
+            "count" : 14
+          }, {
+            "item" : "4077",
+            "count" : 13
+          }, {
+            "item" : "1706",
+            "count" : 12
+          }, {
+            "item" : "7151",
+            "count" : 11
+          }, {
+            "item" : "826",
+            "count" : 10
+          }, {
+            "item" : "8106",
+            "count" : 9
+          }, {
+            "item" : "7895",
+            "count" : 8
+          }, {
+            "item" : "540",
+            "count" : 7
+          }, {
+            "item" : "33639",
+            "count" : 6
+          }, {
+            "item" : "40683",
+            "count" : 5
+          }, {
+            "item" : "1159",
+            "count" : 4
+          }, {
+            "item" : "2502",
+            "count" : 3
+          }, {
+            "item" : "757",
+            "count" : 2
+          }, {
+            "item" : "1121",
+            "count" : 1
+          } ],
+          "smallest" : "540",
+          "sum" : "216086"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765696,
+        "name" : "Unemployment Rate",
+        "dataTypeName" : "number",
+        "fieldName" : "unemployment_rate",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516809,
+        "width" : 304,
+        "cachedContents" : {
+          "largest" : "11.4",
+          "non_null" : 24,
+          "average" : "6.695833333333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "9.4",
+            "count" : 20
+          }, {
+            "item" : "5.5",
+            "count" : 19
+          }, {
+            "item" : "6.0",
+            "count" : 18
+          }, {
+            "item" : "7.8",
+            "count" : 17
+          }, {
+            "item" : "7.5",
+            "count" : 16
+          }, {
+            "item" : "4.5",
+            "count" : 15
+          }, {
+            "item" : "6.6",
+            "count" : 14
+          }, {
+            "item" : "5.0",
+            "count" : 13
+          }, {
+            "item" : "10.1",
+            "count" : 12
+          }, {
+            "item" : "5.3",
+            "count" : 11
+          }, {
+            "item" : "5.6",
+            "count" : 10
+          }, {
+            "item" : "4.6",
+            "count" : 9
+          }, {
+            "item" : "5.8",
+            "count" : 8
+          }, {
+            "item" : "8.0",
+            "count" : 7
+          }, {
+            "item" : "4.3",
+            "count" : 6
+          }, {
+            "item" : "4.4",
+            "count" : 5
+          }, {
+            "item" : "8.4",
+            "count" : 4
+          }, {
+            "item" : "7.7",
+            "count" : 3
+          }, {
+            "item" : "11.4",
+            "count" : 2
+          } ],
+          "smallest" : "4.3",
+          "sum" : "160.7"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765697,
+        "name" : "Commute Workers 16 yrs and over",
+        "dataTypeName" : "number",
+        "fieldName" : "commute_workers_16_yrs_and_over",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516810,
+        "width" : 472,
+        "cachedContents" : {
+          "largest" : "537814",
+          "non_null" : 24,
+          "average" : "123938.375",
+          "null" : 0,
+          "top" : [ {
+            "item" : "28727",
+            "count" : 20
+          }, {
+            "item" : "293520",
+            "count" : 19
+          }, {
+            "item" : "408917",
+            "count" : 18
+          }, {
+            "item" : "44872",
+            "count" : 17
+          }, {
+            "item" : "15162",
+            "count" : 16
+          }, {
+            "item" : "86900",
+            "count" : 15
+          }, {
+            "item" : "48948",
+            "count" : 14
+          }, {
+            "item" : "77928",
+            "count" : 13
+          }, {
+            "item" : "14819",
+            "count" : 12
+          }, {
+            "item" : "127027",
+            "count" : 11
+          }, {
+            "item" : "13790",
+            "count" : 10
+          }, {
+            "item" : "127349",
+            "count" : 9
+          }, {
+            "item" : "164257",
+            "count" : 8
+          }, {
+            "item" : "8919",
+            "count" : 7
+          }, {
+            "item" : "537814",
+            "count" : 6
+          }, {
+            "item" : "462632",
+            "count" : 5
+          }, {
+            "item" : "25058",
+            "count" : 4
+          }, {
+            "item" : "55157",
+            "count" : 3
+          }, {
+            "item" : "8013",
+            "count" : 2
+          }, {
+            "item" : "17383",
+            "count" : 1
+          } ],
+          "smallest" : "8013",
+          "sum" : "2974521"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765698,
+        "name" : "Percent Drove Alone",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_drove_alone",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516811,
+        "width" : 328,
+        "cachedContents" : {
+          "largest" : "85.0",
+          "non_null" : 24,
+          "average" : "78.4",
+          "null" : 0,
+          "top" : [ {
+            "item" : "82.4",
+            "count" : 20
+          }, {
+            "item" : "80.1",
+            "count" : 19
+          }, {
+            "item" : "79.4",
+            "count" : 18
+          }, {
+            "item" : "81.6",
+            "count" : 17
+          }, {
+            "item" : "82.8",
+            "count" : 16
+          }, {
+            "item" : "85.0",
+            "count" : 15
+          }, {
+            "item" : "81.0",
+            "count" : 14
+          }, {
+            "item" : "78.6",
+            "count" : 13
+          }, {
+            "item" : "77.3",
+            "count" : 12
+          }, {
+            "item" : "77.6",
+            "count" : 11
+          }, {
+            "item" : "83.4",
+            "count" : 10
+          }, {
+            "item" : "81.3",
+            "count" : 9
+          }, {
+            "item" : "68.2",
+            "count" : 8
+          }, {
+            "item" : "65.4",
+            "count" : 7
+          }, {
+            "item" : "65.9",
+            "count" : 6
+          }, {
+            "item" : "78.9",
+            "count" : 5
+          }, {
+            "item" : "83.6",
+            "count" : 4
+          }, {
+            "item" : "82.3",
+            "count" : 3
+          }, {
+            "item" : "79.5",
+            "count" : 2
+          }, {
+            "item" : "80.9",
+            "count" : 1
+          } ],
+          "smallest" : "59.8",
+          "sum" : "1881.6"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765699,
+        "name" : "Percent Carpooled",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_carpooled",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516812,
+        "width" : 304,
+        "cachedContents" : {
+          "largest" : "13.8",
+          "non_null" : 24,
+          "average" : "8.991666666666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "9.8",
+            "count" : 20
+          }, {
+            "item" : "7.6",
+            "count" : 19
+          }, {
+            "item" : "8.8",
+            "count" : 18
+          }, {
+            "item" : "8.6",
+            "count" : 17
+          }, {
+            "item" : "8.2",
+            "count" : 16
+          }, {
+            "item" : "8.9",
+            "count" : 15
+          }, {
+            "item" : "8.0",
+            "count" : 14
+          }, {
+            "item" : "13.8",
+            "count" : 13
+          }, {
+            "item" : "9.9",
+            "count" : 12
+          }, {
+            "item" : "11.0",
+            "count" : 11
+          }, {
+            "item" : "8.7",
+            "count" : 10
+          }, {
+            "item" : "7.4",
+            "count" : 9
+          }, {
+            "item" : "9.6",
+            "count" : 8
+          }, {
+            "item" : "11.5",
+            "count" : 7
+          }, {
+            "item" : "9.4",
+            "count" : 6
+          }, {
+            "item" : "5.3",
+            "count" : 5
+          }, {
+            "item" : "9.1",
+            "count" : 4
+          }, {
+            "item" : "6.6",
+            "count" : 3
+          }, {
+            "item" : "9.2",
+            "count" : 2
+          } ],
+          "smallest" : "5.3",
+          "sum" : "215.8"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765700,
+        "name" : "Percent Public Transportation",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_public_transportation",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516813,
+        "width" : 448,
+        "cachedContents" : {
+          "largest" : "18.4",
+          "non_null" : 24,
+          "average" : "3.904166666666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.5",
+            "count" : 20
+          }, {
+            "item" : "3.7",
+            "count" : 19
+          }, {
+            "item" : "4.7",
+            "count" : 18
+          }, {
+            "item" : "3.3",
+            "count" : 17
+          }, {
+            "item" : "1.1",
+            "count" : 16
+          }, {
+            "item" : "0.9",
+            "count" : 15
+          }, {
+            "item" : "1.2",
+            "count" : 14
+          }, {
+            "item" : "6.1",
+            "count" : 13
+          }, {
+            "item" : "2.9",
+            "count" : 12
+          }, {
+            "item" : "0.6",
+            "count" : 11
+          }, {
+            "item" : "1.6",
+            "count" : 10
+          }, {
+            "item" : "3.6",
+            "count" : 9
+          }, {
+            "item" : "15.8",
+            "count" : 8
+          }, {
+            "item" : "16.4",
+            "count" : 7
+          }, {
+            "item" : "1.8",
+            "count" : 6
+          }, {
+            "item" : "2.3",
+            "count" : 5
+          }, {
+            "item" : "1.3",
+            "count" : 4
+          }, {
+            "item" : "0.8",
+            "count" : 3
+          }, {
+            "item" : "18.4",
+            "count" : 2
+          } ],
+          "smallest" : "0.5",
+          "sum" : "93.7"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765701,
+        "name" : "Percent Walked",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_walked",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516814,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "10.5",
+          "non_null" : 24,
+          "average" : "2.775",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4.2",
+            "count" : 20
+          }, {
+            "item" : "2.3",
+            "count" : 19
+          }, {
+            "item" : "1.9",
+            "count" : 18
+          }, {
+            "item" : "0.9",
+            "count" : 17
+          }, {
+            "item" : "2.9",
+            "count" : 16
+          }, {
+            "item" : "1.3",
+            "count" : 15
+          }, {
+            "item" : "1.7",
+            "count" : 14
+          }, {
+            "item" : "1.1",
+            "count" : 13
+          }, {
+            "item" : "2.2",
+            "count" : 12
+          }, {
+            "item" : "3.6",
+            "count" : 11
+          }, {
+            "item" : "1.4",
+            "count" : 10
+          }, {
+            "item" : "10.5",
+            "count" : 9
+          }, {
+            "item" : "2.1",
+            "count" : 8
+          }, {
+            "item" : "1.6",
+            "count" : 7
+          }, {
+            "item" : "4.5",
+            "count" : 6
+          }, {
+            "item" : "2.5",
+            "count" : 5
+          }, {
+            "item" : "6.7",
+            "count" : 4
+          } ],
+          "smallest" : "0.9",
+          "sum" : "66.6"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765702,
+        "name" : "Percent Other",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_other",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516815,
+        "width" : 256,
+        "cachedContents" : {
+          "largest" : "2.2",
+          "non_null" : 24,
+          "average" : "1.2875",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1.2",
+            "count" : 20
+          }, {
+            "item" : "1.4",
+            "count" : 19
+          }, {
+            "item" : "0.9",
+            "count" : 18
+          }, {
+            "item" : "1.9",
+            "count" : 17
+          }, {
+            "item" : "0.7",
+            "count" : 16
+          }, {
+            "item" : "1.1",
+            "count" : 15
+          }, {
+            "item" : "1.7",
+            "count" : 14
+          }, {
+            "item" : "0.5",
+            "count" : 13
+          }, {
+            "item" : "0.8",
+            "count" : 12
+          }, {
+            "item" : "1.3",
+            "count" : 11
+          }, {
+            "item" : "1.5",
+            "count" : 10
+          }, {
+            "item" : "1.6",
+            "count" : 9
+          }, {
+            "item" : "2.1",
+            "count" : 8
+          }, {
+            "item" : "2.2",
+            "count" : 7
+          } ],
+          "smallest" : "0.5",
+          "sum" : "30.9"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765703,
+        "name" : "Percent Worked at Home",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_worked_at_home",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516816,
+        "width" : 364,
+        "cachedContents" : {
+          "largest" : "9.1",
+          "non_null" : 24,
+          "average" : "4.645833333333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2.0",
+            "count" : 20
+          }, {
+            "item" : "4.9",
+            "count" : 19
+          }, {
+            "item" : "3.8",
+            "count" : 18
+          }, {
+            "item" : "4.7",
+            "count" : 17
+          }, {
+            "item" : "3.1",
+            "count" : 16
+          }, {
+            "item" : "4.6",
+            "count" : 15
+          }, {
+            "item" : "6.5",
+            "count" : 14
+          }, {
+            "item" : "6.6",
+            "count" : 13
+          }, {
+            "item" : "4.2",
+            "count" : 12
+          }, {
+            "item" : "5.5",
+            "count" : 11
+          }, {
+            "item" : "9.1",
+            "count" : 10
+          }, {
+            "item" : "5.7",
+            "count" : 9
+          }, {
+            "item" : "2.8",
+            "count" : 8
+          }, {
+            "item" : "7.2",
+            "count" : 7
+          }, {
+            "item" : "2.2",
+            "count" : 6
+          }, {
+            "item" : "5.1",
+            "count" : 5
+          }, {
+            "item" : "5.9",
+            "count" : 4
+          }, {
+            "item" : "4.8",
+            "count" : 3
+          }, {
+            "item" : "2.6",
+            "count" : 2
+          }, {
+            "item" : "3.7",
+            "count" : 1
+          } ],
+          "smallest" : "2.0",
+          "sum" : "111.5"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765704,
+        "name" : "Median Household Income ($)",
+        "dataTypeName" : "number",
+        "fieldName" : "median_household_income",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516817,
+        "width" : 424,
+        "cachedContents" : {
+          "largest" : "113800",
+          "non_null" : 24,
+          "average" : "70159.41666666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "41559",
+            "count" : 20
+          }, {
+            "item" : "91918",
+            "count" : 19
+          }, {
+            "item" : "68989",
+            "count" : 18
+          }, {
+            "item" : "96808",
+            "count" : 17
+          }, {
+            "item" : "50830",
+            "count" : 16
+          }, {
+            "item" : "87060",
+            "count" : 15
+          }, {
+            "item" : "67938",
+            "count" : 14
+          }, {
+            "item" : "91373",
+            "count" : 13
+          }, {
+            "item" : "47907",
+            "count" : 12
+          }, {
+            "item" : "85715",
+            "count" : 11
+          }, {
+            "item" : "46277",
+            "count" : 10
+          }, {
+            "item" : "81052",
+            "count" : 9
+          }, {
+            "item" : "113800",
+            "count" : 8
+          }, {
+            "item" : "55028",
+            "count" : 7
+          }, {
+            "item" : "100352",
+            "count" : 6
+          }, {
+            "item" : "75925",
+            "count" : 5
+          }, {
+            "item" : "85891",
+            "count" : 4
+          }, {
+            "item" : "86810",
+            "count" : 3
+          }, {
+            "item" : "35886",
+            "count" : 2
+          }, {
+            "item" : "61395",
+            "count" : 1
+          } ],
+          "smallest" : "35886",
+          "sum" : "1683826"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765705,
+        "name" : "Families",
+        "dataTypeName" : "number",
+        "fieldName" : "families",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516818,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "256128",
+          "non_null" : 24,
+          "average" : "60665.08333333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "17157",
+            "count" : 20
+          }, {
+            "item" : "142363",
+            "count" : 19
+          }, {
+            "item" : "203891",
+            "count" : 18
+          }, {
+            "item" : "23705",
+            "count" : 17
+          }, {
+            "item" : "8619",
+            "count" : 16
+          }, {
+            "item" : "44606",
+            "count" : 15
+          }, {
+            "item" : "26123",
+            "count" : 14
+          }, {
+            "item" : "39377",
+            "count" : 13
+          }, {
+            "item" : "8773",
+            "count" : 12
+          }, {
+            "item" : "64219",
+            "count" : 11
+          }, {
+            "item" : "8177",
+            "count" : 10
+          }, {
+            "item" : "66516",
+            "count" : 9
+          }, {
+            "item" : "82123",
+            "count" : 8
+          }, {
+            "item" : "4654",
+            "count" : 7
+          }, {
+            "item" : "256128",
+            "count" : 6
+          }, {
+            "item" : "202160",
+            "count" : 5
+          }, {
+            "item" : "13162",
+            "count" : 4
+          }, {
+            "item" : "27876",
+            "count" : 3
+          }, {
+            "item" : "5147",
+            "count" : 2
+          }, {
+            "item" : "11001",
+            "count" : 1
+          } ],
+          "smallest" : "4654",
+          "sum" : "1455962"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765706,
+        "name" : "Percent Families in Poverty",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_families_in_poverty",
+        "position" : 25,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516819,
+        "width" : 424,
+        "cachedContents" : {
+          "largest" : "20.6",
+          "non_null" : 24,
+          "average" : "7.995833333333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "11.2",
+            "count" : 20
+          }, {
+            "item" : "3.9",
+            "count" : 19
+          }, {
+            "item" : "6.1",
+            "count" : 18
+          }, {
+            "item" : "3.4",
+            "count" : 17
+          }, {
+            "item" : "13.2",
+            "count" : 16
+          }, {
+            "item" : "7.3",
+            "count" : 15
+          }, {
+            "item" : "5.8",
+            "count" : 14
+          }, {
+            "item" : "12.8",
+            "count" : 13
+          }, {
+            "item" : "4.8",
+            "count" : 12
+          }, {
+            "item" : "9.0",
+            "count" : 11
+          }, {
+            "item" : "3.5",
+            "count" : 10
+          }, {
+            "item" : "6.6",
+            "count" : 9
+          }, {
+            "item" : "4.7",
+            "count" : 8
+          }, {
+            "item" : "6.9",
+            "count" : 7
+          }, {
+            "item" : "4.4",
+            "count" : 6
+          }, {
+            "item" : "5.4",
+            "count" : 5
+          }, {
+            "item" : "20.6",
+            "count" : 4
+          }, {
+            "item" : "9.7",
+            "count" : 3
+          }, {
+            "item" : "10.5",
+            "count" : 2
+          }, {
+            "item" : "7.7",
+            "count" : 1
+          } ],
+          "smallest" : "3.4",
+          "sum" : "191.9"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765707,
+        "name" : "Percent Civilian Population w/ Health Ins. Cov.",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_civilian_population_w_health_ins_cov",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516820,
+        "width" : 664,
+        "cachedContents" : {
+          "largest" : "95.6",
+          "non_null" : 24,
+          "average" : "92.79583333333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "93.2",
+            "count" : 20
+          }, {
+            "item" : "94.0",
+            "count" : 19
+          }, {
+            "item" : "92.6",
+            "count" : 18
+          }, {
+            "item" : "89.9",
+            "count" : 17
+          }, {
+            "item" : "95.6",
+            "count" : 16
+          }, {
+            "item" : "93.0",
+            "count" : 15
+          }, {
+            "item" : "93.5",
+            "count" : 14
+          }, {
+            "item" : "93.9",
+            "count" : 13
+          }, {
+            "item" : "91.1",
+            "count" : 12
+          }, {
+            "item" : "95.4",
+            "count" : 11
+          }, {
+            "item" : "94.9",
+            "count" : 10
+          }, {
+            "item" : "93.4",
+            "count" : 9
+          }, {
+            "item" : "90.7",
+            "count" : 8
+          }, {
+            "item" : "87.1",
+            "count" : 7
+          }, {
+            "item" : "95.0",
+            "count" : 6
+          }, {
+            "item" : "90.9",
+            "count" : 5
+          }, {
+            "item" : "93.1",
+            "count" : 4
+          }, {
+            "item" : "92.1",
+            "count" : 3
+          }, {
+            "item" : "92.2",
+            "count" : 2
+          }, {
+            "item" : "91.0",
+            "count" : 1
+          } ],
+          "smallest" : "87.1",
+          "sum" : "2227.1"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765708,
+        "name" : "Total Housing Units",
+        "dataTypeName" : "number",
+        "fieldName" : "total_housing_units",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516821,
+        "width" : 328,
+        "cachedContents" : {
+          "largest" : "385485",
+          "non_null" : 24,
+          "average" : "100912.875",
+          "null" : 0,
+          "top" : [ {
+            "item" : "33211",
+            "count" : 20
+          }, {
+            "item" : "219319",
+            "count" : 19
+          }, {
+            "item" : "337031",
+            "count" : 18
+          }, {
+            "item" : "34613",
+            "count" : 17
+          }, {
+            "item" : "13525",
+            "count" : 16
+          }, {
+            "item" : "63123",
+            "count" : 15
+          }, {
+            "item" : "42269",
+            "count" : 14
+          }, {
+            "item" : "58014",
+            "count" : 13
+          }, {
+            "item" : "16700",
+            "count" : 12
+          }, {
+            "item" : "93645",
+            "count" : 11
+          }, {
+            "item" : "19080",
+            "count" : 10
+          }, {
+            "item" : "98277",
+            "count" : 9
+          }, {
+            "item" : "115003",
+            "count" : 8
+          }, {
+            "item" : "10667",
+            "count" : 7
+          }, {
+            "item" : "385485",
+            "count" : 6
+          }, {
+            "item" : "330708",
+            "count" : 5
+          }, {
+            "item" : "20754",
+            "count" : 4
+          }, {
+            "item" : "43276",
+            "count" : 3
+          }, {
+            "item" : "11244",
+            "count" : 2
+          }, {
+            "item" : "20110",
+            "count" : 1
+          } ],
+          "smallest" : "10667",
+          "sum" : "2421909"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765709,
+        "name" : "Percent Occupied",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_occupied",
+        "position" : 28,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516822,
+        "width" : 292,
+        "cachedContents" : {
+          "largest" : "95.8",
+          "non_null" : 24,
+          "average" : "85.15",
+          "null" : 0,
+          "top" : [ {
+            "item" : "84.8",
+            "count" : 20
+          }, {
+            "item" : "93.4",
+            "count" : 19
+          }, {
+            "item" : "92.8",
+            "count" : 18
+          }, {
+            "item" : "90.9",
+            "count" : 17
+          }, {
+            "item" : "88.8",
+            "count" : 16
+          }, {
+            "item" : "95.8",
+            "count" : 15
+          }, {
+            "item" : "87.5",
+            "count" : 14
+          }, {
+            "item" : "93.3",
+            "count" : 13
+          }, {
+            "item" : "79.1",
+            "count" : 12
+          }, {
+            "item" : "95.0",
+            "count" : 11
+          }, {
+            "item" : "61.0",
+            "count" : 10
+          }, {
+            "item" : "94.1",
+            "count" : 9
+          }, {
+            "item" : "95.5",
+            "count" : 8
+          }, {
+            "item" : "72.0",
+            "count" : 7
+          }, {
+            "item" : "95.4",
+            "count" : 6
+          }, {
+            "item" : "92.7",
+            "count" : 5
+          }, {
+            "item" : "85.7",
+            "count" : 4
+          }, {
+            "item" : "90.1",
+            "count" : 3
+          }, {
+            "item" : "74.1",
+            "count" : 2
+          }, {
+            "item" : "82.0",
+            "count" : 1
+          } ],
+          "smallest" : "37.6",
+          "sum" : "2043.6"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765710,
+        "name" : "Percent Vacant",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_vacant",
+        "position" : 29,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516823,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "62.4",
+          "non_null" : 24,
+          "average" : "14.85",
+          "null" : 0,
+          "top" : [ {
+            "item" : "15.2",
+            "count" : 20
+          }, {
+            "item" : "6.6",
+            "count" : 19
+          }, {
+            "item" : "7.2",
+            "count" : 18
+          }, {
+            "item" : "9.1",
+            "count" : 17
+          }, {
+            "item" : "11.2",
+            "count" : 16
+          }, {
+            "item" : "4.2",
+            "count" : 15
+          }, {
+            "item" : "12.5",
+            "count" : 14
+          }, {
+            "item" : "6.7",
+            "count" : 13
+          }, {
+            "item" : "20.9",
+            "count" : 12
+          }, {
+            "item" : "5.0",
+            "count" : 11
+          }, {
+            "item" : "39.0",
+            "count" : 10
+          }, {
+            "item" : "5.9",
+            "count" : 9
+          }, {
+            "item" : "4.5",
+            "count" : 8
+          }, {
+            "item" : "28.0",
+            "count" : 7
+          }, {
+            "item" : "4.6",
+            "count" : 6
+          }, {
+            "item" : "7.3",
+            "count" : 5
+          }, {
+            "item" : "14.3",
+            "count" : 4
+          }, {
+            "item" : "9.9",
+            "count" : 3
+          }, {
+            "item" : "25.9",
+            "count" : 2
+          }, {
+            "item" : "18.0",
+            "count" : 1
+          } ],
+          "smallest" : "4.2",
+          "sum" : "356.4"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765711,
+        "name" : "Total Population",
+        "dataTypeName" : "number",
+        "fieldName" : "total_population",
+        "position" : 30,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516824,
+        "width" : 292,
+        "cachedContents" : {
+          "largest" : "1026371",
+          "non_null" : 24,
+          "average" : "248329.25",
+          "null" : 0,
+          "top" : [ {
+            "item" : "73060",
+            "count" : 20
+          }, {
+            "item" : "559737",
+            "count" : 19
+          }, {
+            "item" : "825666",
+            "count" : 18
+          }, {
+            "item" : "90527",
+            "count" : 17
+          }, {
+            "item" : "32653",
+            "count" : 16
+          }, {
+            "item" : "167535",
+            "count" : 15
+          }, {
+            "item" : "102175",
+            "count" : 14
+          }, {
+            "item" : "154357",
+            "count" : 13
+          }, {
+            "item" : "32451",
+            "count" : 12
+          }, {
+            "item" : "243465",
+            "count" : 11
+          }, {
+            "item" : "29677",
+            "count" : 10
+          }, {
+            "item" : "249776",
+            "count" : 9
+          }, {
+            "item" : "308447",
+            "count" : 8
+          }, {
+            "item" : "19819",
+            "count" : 7
+          }, {
+            "item" : "1026371",
+            "count" : 6
+          }, {
+            "item" : "897693",
+            "count" : 5
+          }, {
+            "item" : "48712",
+            "count" : 4
+          }, {
+            "item" : "110675",
+            "count" : 3
+          }, {
+            "item" : "25899",
+            "count" : 2
+          }, {
+            "item" : "37668",
+            "count" : 1
+          } ],
+          "smallest" : "19819",
+          "sum" : "5959902"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765712,
+        "name" : "Voting Age Population",
+        "dataTypeName" : "number",
+        "fieldName" : "voting_age_population",
+        "position" : 31,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516825,
+        "width" : 352,
+        "cachedContents" : {
+          "largest" : "641531",
+          "non_null" : 24,
+          "average" : "175510.9583333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "59252",
+            "count" : 20
+          }, {
+            "item" : "412597",
+            "count" : 19
+          }, {
+            "item" : "605359",
+            "count" : 18
+          }, {
+            "item" : "67844",
+            "count" : 17
+          }, {
+            "item" : "23885",
+            "count" : 16
+          }, {
+            "item" : "127562",
+            "count" : 15
+          }, {
+            "item" : "76626",
+            "count" : 14
+          }, {
+            "item" : "112198",
+            "count" : 13
+          }, {
+            "item" : "24837",
+            "count" : 12
+          }, {
+            "item" : "174249",
+            "count" : 11
+          }, {
+            "item" : "23695",
+            "count" : 10
+          }, {
+            "item" : "187911",
+            "count" : 9
+          }, {
+            "item" : "209138",
+            "count" : 8
+          }, {
+            "item" : "15870",
+            "count" : 7
+          }, {
+            "item" : "641531",
+            "count" : 6
+          }, {
+            "item" : "589561",
+            "count" : 5
+          }, {
+            "item" : "37196",
+            "count" : 4
+          }, {
+            "item" : "81421",
+            "count" : 3
+          }, {
+            "item" : "20817",
+            "count" : 2
+          }, {
+            "item" : "29501",
+            "count" : 1
+          } ],
+          "smallest" : "15870",
+          "sum" : "4212263"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765713,
+        "name" : "Male",
+        "dataTypeName" : "number",
+        "fieldName" : "male",
+        "position" : 32,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516826,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "494612",
+          "non_null" : 24,
+          "average" : "120280.5833333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "38077",
+            "count" : 20
+          }, {
+            "item" : "276842",
+            "count" : 19
+          }, {
+            "item" : "391102",
+            "count" : 18
+          }, {
+            "item" : "44966",
+            "count" : 17
+          }, {
+            "item" : "15822",
+            "count" : 16
+          }, {
+            "item" : "82892",
+            "count" : 15
+          }, {
+            "item" : "50603",
+            "count" : 14
+          }, {
+            "item" : "74489",
+            "count" : 13
+          }, {
+            "item" : "15519",
+            "count" : 12
+          }, {
+            "item" : "120072",
+            "count" : 11
+          }, {
+            "item" : "14701",
+            "count" : 10
+          }, {
+            "item" : "122076",
+            "count" : 9
+          }, {
+            "item" : "151100",
+            "count" : 8
+          }, {
+            "item" : "9539",
+            "count" : 7
+          }, {
+            "item" : "494612",
+            "count" : 6
+          }, {
+            "item" : "431752",
+            "count" : 5
+          }, {
+            "item" : "24151",
+            "count" : 4
+          }, {
+            "item" : "55176",
+            "count" : 3
+          }, {
+            "item" : "13936",
+            "count" : 2
+          }, {
+            "item" : "17733",
+            "count" : 1
+          } ],
+          "smallest" : "9539",
+          "sum" : "2886734"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765714,
+        "name" : "Female",
+        "dataTypeName" : "number",
+        "fieldName" : "female",
+        "position" : 33,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516827,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "531759",
+          "non_null" : 24,
+          "average" : "128048.6666666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "34983",
+            "count" : 20
+          }, {
+            "item" : "282895",
+            "count" : 19
+          }, {
+            "item" : "434564",
+            "count" : 18
+          }, {
+            "item" : "45561",
+            "count" : 17
+          }, {
+            "item" : "16831",
+            "count" : 16
+          }, {
+            "item" : "84643",
+            "count" : 15
+          }, {
+            "item" : "51572",
+            "count" : 14
+          }, {
+            "item" : "79868",
+            "count" : 13
+          }, {
+            "item" : "16932",
+            "count" : 12
+          }, {
+            "item" : "123393",
+            "count" : 11
+          }, {
+            "item" : "14976",
+            "count" : 10
+          }, {
+            "item" : "127700",
+            "count" : 9
+          }, {
+            "item" : "157347",
+            "count" : 8
+          }, {
+            "item" : "10280",
+            "count" : 7
+          }, {
+            "item" : "531759",
+            "count" : 6
+          }, {
+            "item" : "465941",
+            "count" : 5
+          }, {
+            "item" : "24561",
+            "count" : 4
+          }, {
+            "item" : "55499",
+            "count" : 3
+          }, {
+            "item" : "11963",
+            "count" : 2
+          }, {
+            "item" : "19935",
+            "count" : 1
+          } ],
+          "smallest" : "10280",
+          "sum" : "3073168"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765715,
+        "name" : "White Alone",
+        "dataTypeName" : "number",
+        "fieldName" : "white_alone",
+        "position" : 34,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516828,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "566239",
+          "non_null" : 24,
+          "average" : "142010",
+          "null" : 0,
+          "top" : [ {
+            "item" : "64695",
+            "count" : 20
+          }, {
+            "item" : "416331",
+            "count" : 19
+          }, {
+            "item" : "519063",
+            "count" : 18
+          }, {
+            "item" : "73873",
+            "count" : 17
+          }, {
+            "item" : "26419",
+            "count" : 16
+          }, {
+            "item" : "155174",
+            "count" : 15
+          }, {
+            "item" : "90516",
+            "count" : 14
+          }, {
+            "item" : "73744",
+            "count" : 13
+          }, {
+            "item" : "21527",
+            "count" : 12
+          }, {
+            "item" : "197960",
+            "count" : 11
+          }, {
+            "item" : "28842",
+            "count" : 10
+          }, {
+            "item" : "199268",
+            "count" : 9
+          }, {
+            "item" : "183599",
+            "count" : 8
+          }, {
+            "item" : "16302",
+            "count" : 7
+          }, {
+            "item" : "566239",
+            "count" : 6
+          }, {
+            "item" : "173881",
+            "count" : 5
+          }, {
+            "item" : "43698",
+            "count" : 4
+          }, {
+            "item" : "87669",
+            "count" : 3
+          }, {
+            "item" : "13719",
+            "count" : 2
+          }, {
+            "item" : "31262",
+            "count" : 1
+          } ],
+          "smallest" : "13719",
+          "sum" : "3408240"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765716,
+        "name" : "Black Alone",
+        "dataTypeName" : "number",
+        "fieldName" : "black_alone",
+        "position" : 35,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516829,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "570138",
+          "non_null" : 24,
+          "average" : "73580.25",
+          "null" : 0,
+          "top" : [ {
+            "item" : "6021",
+            "count" : 20
+          }, {
+            "item" : "89001",
+            "count" : 19
+          }, {
+            "item" : "226879",
+            "count" : 18
+          }, {
+            "item" : "11124",
+            "count" : 17
+          }, {
+            "item" : "4411",
+            "count" : 16
+          }, {
+            "item" : "5538",
+            "count" : 15
+          }, {
+            "item" : "6847",
+            "count" : 14
+          }, {
+            "item" : "65796",
+            "count" : 13
+          }, {
+            "item" : "9101",
+            "count" : 12
+          }, {
+            "item" : "22196",
+            "count" : 11
+          }, {
+            "item" : "187",
+            "count" : 10
+          }, {
+            "item" : "33742",
+            "count" : 9
+          }, {
+            "item" : "56504",
+            "count" : 8
+          }, {
+            "item" : "2949",
+            "count" : 7
+          }, {
+            "item" : "182774",
+            "count" : 6
+          }, {
+            "item" : "570138",
+            "count" : 5
+          }, {
+            "item" : "3522",
+            "count" : 4
+          }, {
+            "item" : "15568",
+            "count" : 3
+          }, {
+            "item" : "10837",
+            "count" : 2
+          }, {
+            "item" : "4172",
+            "count" : 1
+          } ],
+          "smallest" : "187",
+          "sum" : "1765926"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765717,
+        "name" : "Asian Alone",
+        "dataTypeName" : "number",
+        "fieldName" : "asian_alone",
+        "position" : 36,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516830,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "149770",
+          "non_null" : 24,
+          "average" : "15094.125",
+          "null" : 0,
+          "top" : [ {
+            "item" : "580",
+            "count" : 20
+          }, {
+            "item" : "20103",
+            "count" : 19
+          }, {
+            "item" : "47772",
+            "count" : 18
+          }, {
+            "item" : "1371",
+            "count" : 17
+          }, {
+            "item" : "187",
+            "count" : 16
+          }, {
+            "item" : "2734",
+            "count" : 15
+          }, {
+            "item" : "1367",
+            "count" : 14
+          }, {
+            "item" : "4760",
+            "count" : 13
+          }, {
+            "item" : "352",
+            "count" : 12
+          }, {
+            "item" : "10701",
+            "count" : 11
+          }, {
+            "item" : "93",
+            "count" : 10
+          }, {
+            "item" : "6478",
+            "count" : 9
+          }, {
+            "item" : "51545",
+            "count" : 8
+          }, {
+            "item" : "207",
+            "count" : 7
+          }, {
+            "item" : "149770",
+            "count" : 6
+          }, {
+            "item" : "38063",
+            "count" : 5
+          }, {
+            "item" : "364",
+            "count" : 4
+          }, {
+            "item" : "2964",
+            "count" : 3
+          }, {
+            "item" : "269",
+            "count" : 2
+          }, {
+            "item" : "525",
+            "count" : 1
+          } ],
+          "smallest" : "93",
+          "sum" : "362259"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765718,
+        "name" : "American Indian/Alaska Native Alone",
+        "dataTypeName" : "number",
+        "fieldName" : "american_indian_alaska_native_alone",
+        "position" : 37,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516831,
+        "width" : 520,
+        "cachedContents" : {
+          "largest" : "3449",
+          "non_null" : 24,
+          "average" : "664.4166666666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "118",
+            "count" : 20
+          }, {
+            "item" : "1222",
+            "count" : 19
+          }, {
+            "item" : "2110",
+            "count" : 18
+          }, {
+            "item" : "77",
+            "count" : 17
+          }, {
+            "item" : "30",
+            "count" : 16
+          }, {
+            "item" : "306",
+            "count" : 15
+          }, {
+            "item" : "245",
+            "count" : 14
+          }, {
+            "item" : "1026",
+            "count" : 13
+          }, {
+            "item" : "27",
+            "count" : 12
+          }, {
+            "item" : "646",
+            "count" : 11
+          }, {
+            "item" : "45",
+            "count" : 10
+          }, {
+            "item" : "443",
+            "count" : 9
+          }, {
+            "item" : "499",
+            "count" : 8
+          }, {
+            "item" : "36",
+            "count" : 7
+          }, {
+            "item" : "2857",
+            "count" : 6
+          }, {
+            "item" : "3449",
+            "count" : 5
+          }, {
+            "item" : "39",
+            "count" : 4
+          }, {
+            "item" : "217",
+            "count" : 3
+          }, {
+            "item" : "69",
+            "count" : 2
+          }, {
+            "item" : "79",
+            "count" : 1
+          } ],
+          "smallest" : "27",
+          "sum" : "15946"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765719,
+        "name" : "Native Hawaiian/Pacific Islander Alone",
+        "dataTypeName" : "number",
+        "fieldName" : "native_hawaiian_pacific_islander_alone",
+        "position" : 38,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516832,
+        "width" : 556,
+        "cachedContents" : {
+          "largest" : "503",
+          "non_null" : 24,
+          "average" : "116.3333333333333",
+          "null" : 0,
+          "top" : [ {
+            "item" : "34",
+            "count" : 20
+          }, {
+            "item" : "383",
+            "count" : 19
+          }, {
+            "item" : "394",
+            "count" : 18
+          }, {
+            "item" : "0",
+            "count" : 17
+          }, {
+            "item" : "16",
+            "count" : 16
+          }, {
+            "item" : "57",
+            "count" : 15
+          }, {
+            "item" : "42",
+            "count" : 14
+          }, {
+            "item" : "162",
+            "count" : 13
+          }, {
+            "item" : "146",
+            "count" : 12
+          }, {
+            "item" : "6",
+            "count" : 11
+          }, {
+            "item" : "8",
+            "count" : 10
+          }, {
+            "item" : "132",
+            "count" : 9
+          }, {
+            "item" : "503",
+            "count" : 8
+          }, {
+            "item" : "269",
+            "count" : 7
+          }, {
+            "item" : "24",
+            "count" : 6
+          }, {
+            "item" : "31",
+            "count" : 5
+          }, {
+            "item" : "14",
+            "count" : 4
+          }, {
+            "item" : "38",
+            "count" : 3
+          }, {
+            "item" : "69",
+            "count" : 2
+          }, {
+            "item" : "64",
+            "count" : 1
+          } ],
+          "smallest" : "0",
+          "sum" : "2792"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765720,
+        "name" : "Some Other Race Alone",
+        "dataTypeName" : "number",
+        "fieldName" : "some_other_race_alone",
+        "position" : 39,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516833,
+        "width" : 352,
+        "cachedContents" : {
+          "largest" : "86885",
+          "non_null" : 24,
+          "average" : "9107.75",
+          "null" : 0,
+          "top" : [ {
+            "item" : "167",
+            "count" : 20
+          }, {
+            "item" : "12470",
+            "count" : 19
+          }, {
+            "item" : "7828",
+            "count" : 18
+          }, {
+            "item" : "530",
+            "count" : 17
+          }, {
+            "item" : "623",
+            "count" : 16
+          }, {
+            "item" : "552",
+            "count" : 15
+          }, {
+            "item" : "962",
+            "count" : 14
+          }, {
+            "item" : "1169",
+            "count" : 13
+          }, {
+            "item" : "567",
+            "count" : 12
+          }, {
+            "item" : "4187",
+            "count" : 11
+          }, {
+            "item" : "15",
+            "count" : 10
+          }, {
+            "item" : "2806",
+            "count" : 9
+          }, {
+            "item" : "4356",
+            "count" : 8
+          }, {
+            "item" : "24",
+            "count" : 7
+          }, {
+            "item" : "81619",
+            "count" : 6
+          }, {
+            "item" : "86885",
+            "count" : 5
+          }, {
+            "item" : "272",
+            "count" : 4
+          }, {
+            "item" : "616",
+            "count" : 3
+          }, {
+            "item" : "384",
+            "count" : 2
+          }, {
+            "item" : "348",
+            "count" : 1
+          } ],
+          "smallest" : "15",
+          "sum" : "218586"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765721,
+        "name" : "Two or More Races",
+        "dataTypeName" : "number",
+        "fieldName" : "two_or_more_races",
+        "position" : 40,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516834,
+        "width" : 304,
+        "cachedContents" : {
+          "largest" : "42609",
+          "non_null" : 24,
+          "average" : "7756.375",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1445",
+            "count" : 20
+          }, {
+            "item" : "20227",
+            "count" : 19
+          }, {
+            "item" : "21620",
+            "count" : 18
+          }, {
+            "item" : "3552",
+            "count" : 17
+          }, {
+            "item" : "967",
+            "count" : 16
+          }, {
+            "item" : "3174",
+            "count" : 15
+          }, {
+            "item" : "2196",
+            "count" : 14
+          }, {
+            "item" : "7700",
+            "count" : 13
+          }, {
+            "item" : "877",
+            "count" : 12
+          }, {
+            "item" : "7629",
+            "count" : 11
+          }, {
+            "item" : "489",
+            "count" : 10
+          }, {
+            "item" : "7031",
+            "count" : 9
+          }, {
+            "item" : "11812",
+            "count" : 8
+          }, {
+            "item" : "301",
+            "count" : 7
+          }, {
+            "item" : "42609",
+            "count" : 6
+          }, {
+            "item" : "25008",
+            "count" : 5
+          }, {
+            "item" : "793",
+            "count" : 4
+          }, {
+            "item" : "3610",
+            "count" : 3
+          }, {
+            "item" : "607",
+            "count" : 2
+          }, {
+            "item" : "1244",
+            "count" : 1
+          } ],
+          "smallest" : "301",
+          "sum" : "186153"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 372765722,
+        "name" : "Hispanic or Latino (of any race)",
+        "dataTypeName" : "number",
+        "fieldName" : "hispanic_or_latino_of_any_race",
+        "position" : 41,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61516835,
+        "width" : 484,
+        "cachedContents" : {
+          "largest" : "190550",
+          "non_null" : 24,
+          "average" : "22922.75",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1233",
+            "count" : 20
+          }, {
+            "item" : "39402",
+            "count" : 19
+          }, {
+            "item" : "40850",
+            "count" : 18
+          }, {
+            "item" : "3092",
+            "count" : 17
+          }, {
+            "item" : "2101",
+            "count" : 16
+          }, {
+            "item" : "5096",
+            "count" : 15
+          }, {
+            "item" : "4087",
+            "count" : 14
+          }, {
+            "item" : "7939",
+            "count" : 13
+          }, {
+            "item" : "1516",
+            "count" : 12
+          }, {
+            "item" : "20485",
+            "count" : 11
+          }, {
+            "item" : "301",
+            "count" : 10
+          }, {
+            "item" : "10208",
+            "count" : 9
+          }, {
+            "item" : "19595",
+            "count" : 8
+          }, {
+            "item" : "870",
+            "count" : 7
+          }, {
+            "item" : "190550",
+            "count" : 6
+          }, {
+            "item" : "150268",
+            "count" : 5
+          }, {
+            "item" : "1668",
+            "count" : 4
+          }, {
+            "item" : "5136",
+            "count" : 3
+          }, {
+            "item" : "937",
+            "count" : 2
+          }, {
+            "item" : "2298",
+            "count" : 1
+          } ],
+          "smallest" : "301",
+          "sum" : "550146"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Jurisdiction" : {
+            "Jurisdiction" : "State of Maryland"
+          },
+          "Agency" : {
+            "State Agency Performing Data Updates" : "Maryland Department of Planning"
+          },
+          "Supplemental Resources" : {
+            "Related Datasets Link(s)" : "",
+            "Dataset Icon Link" : "",
+            "Additional Documentation Link" : ""
+          },
+          "Time Period" : {
+            "Update Frequency" : "Annually",
+            "Other Update Frequency - If frequency isn't included in list above, please describe it here." : "",
+            "Time Period of Content" : "2012-2016",
+            "Date Metadata Written" : "02/20/2018"
+          },
+          "GIS Download" : {
+            "Place Keywords" : "Maryland Department of Planning, MDP, population, gender, race, labor force, educational attainment, income, poverty, households and housing units",
+            "Shape File" : "",
+            "KML File" : ""
+          }
+        },
+        "rowLabel" : "Maryland Counties",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "85mq-rt9c",
+        "displayName" : "MDP",
+        "profileImageUrlLarge" : "/api/users/85mq-rt9c/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/85mq-rt9c/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/85mq-rt9c/profile_images/TINY",
+        "screenName" : "MDP",
+        "type" : "interactive"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "85mq-rt9c",
+        "displayName" : "MDP",
+        "profileImageUrlLarge" : "/api/users/85mq-rt9c/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/85mq-rt9c/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/85mq-rt9c/profile_images/TINY",
+        "screenName" : "MDP",
+        "type" : "interactive"
+      },
+      "tags" : [ "maryland department of planning", "mdp", "population", "gender", "race", "labor force", "educational attainment", "income", "poverty", "households and housing units" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "86002DC4-62E7-485C-860B-383859CE9F79", 1, 1519141552, "697395", 1519141552, "697395", null, "Allegany County", "28167", "50793", "1454", "4089", "21302", "9999", "4825", "4733", "4391", "61696", "32412", "29357", "3055", "9.4", "28727", "82.4", "9.8", "0.5", "4.2", "1.2", "2.0", "41559", "17157", "11.2", "93.2", "33211", "84.8", "15.2", "73060", "59252", "38077", "34983", "64695", "6021", "580", "118", "34", "167", "1445", "1233" ]
+, [ 2, "33F6B803-0F35-4833-9FEB-948BB364143C", 2, 1519141552, "697395", 1519141552, "697395", null, "Anne Arundel County", "204829", "382657", "8852", "22100", "93862", "78474", "28736", "88157", "62476", "446935", "303581", "286787", "16794", "5.5", "293520", "80.1", "7.6", "3.7", "2.3", "1.4", "4.9", "91918", "142363", "3.9", "94.0", "219319", "93.4", "6.6", "559737", "412597", "276842", "282895", "416331", "89001", "20103", "1222", "383", "12470", "20227", "39402" ]
+, [ 3, "C5E8C652-F309-4450-992A-D9B52F978420", 3, 1519141552, "697395", 1519141552, "697395", null, "Baltimore County", "312826", "569088", "18308", "33161", "154724", "111102", "40101", "121891", "89801", "667650", "443325", "416908", "26417", "6.0", "408917", "79.4", "8.8", "4.7", "1.9", "1.4", "3.8", "68989", "203891", "6.1", "92.6", "337031", "92.8", "7.2", "825666", "605359", "391102", "434564", "519063", "226879", "47772", "2110", "394", "7828", "21620", "40850" ]
+, [ 4, "C8F133E2-6DCB-41D5-A5DE-2B1BB28EBE90", 4, 1519141552, "697395", 1519141552, "697395", null, "Calvert County", "31479", "60627", "1065", "3001", "18704", "15532", "4570", "10038", "7717", "71413", "49073", "45239", "3834", "7.8", "44872", "81.6", "8.6", "3.3", "0.9", "0.9", "4.7", "96808", "23705", "3.4", "94.0", "34613", "90.9", "9.1", "90527", "67844", "44966", "45561", "73873", "11124", "1371", "77", "0", "530", "3552", "3092" ]
+, [ 5, "DB362101-931F-4782-9BDA-480A07A5C709", 5, 1519141552, "697395", 1519141552, "697395", null, "Caroline County", "12010", "22037", "1291", "2389", "9207", "4171", "1608", "2112", "1259", "25747", "16663", "15410", "1253", "7.5", "15162", "82.8", "8.2", "1.1", "2.9", "1.9", "3.1", "50830", "8619", "13.2", "89.9", "13525", "88.8", "11.2", "32653", "23885", "15822", "16831", "26419", "4411", "187", "30", "16", "623", "967", "2101" ]
+, [ 6, "4F193E6B-EBFE-4A03-B5D8-923DFE9C28D8", 6, 1519141552, "697395", 1519141552, "697395", null, "Carroll County", "60449", "114734", "2440", "6631", "35112", "23194", "8690", "24569", "14098", "135072", "92719", "88560", "4159", "4.5", "86900", "85.0", "7.6", "0.9", "1.3", "0.7", "4.6", "87060", "44606", "3.4", "95.6", "63123", "95.8", "4.2", "167535", "127562", "82892", "84643", "155174", "5538", "2734", "306", "57", "552", "3174", "5096" ]
+, [ 7, "A65A5B3D-DF8E-43A8-935D-D5E666EF02D5", 7, 1519141552, "697395", 1519141552, "697395", null, "Cecil County", "36993", "69319", "2170", "6050", "26015", "14423", "5070", "9415", "6176", "80777", "53155", "49666", "3489", "6.6", "48948", "82.4", "8.9", "1.2", "1.7", "1.1", "4.6", "67938", "26123", "7.3", "93.0", "42269", "87.5", "12.5", "102175", "76626", "50603", "51572", "90516", "6847", "1367", "245", "42", "962", "2196", "4087" ]
+, [ 8, "CAC8AD5C-92C1-42E2-A8E8-FAE7DD8C4F89", 8, 1519141552, "697395", 1519141552, "697395", null, "Charles County", "54105", "101706", "2319", "4984", "32896", "25597", "8080", "16756", "11074", "120875", "81852", "77775", "4077", "5.0", "77928", "81.0", "8.0", "6.1", "1.1", "0.7", "3.1", "91373", "39377", "5.8", "95.6", "58014", "93.3", "6.7", "154357", "112198", "74489", "79868", "73744", "65796", "4760", "1026", "162", "1169", "7700", "7939" ]
+, [ 9, "1360996F-8A05-466F-A549-A8DE7871FEC7", 9, 1519141552, "697395", 1519141552, "697395", null, "Dorchester County", "13206", "23113", "993", "2465", "8907", "4576", "1372", "2928", "1872", "26350", "16928", "15222", "1706", "10.1", "14819", "78.6", "13.8", "0.5", "2.3", "1.7", "3.1", "47907", "8773", "12.8", "93.5", "16700", "79.1", "20.9", "32451", "24837", "15519", "16932", "21527", "9101", "352", "27", "0", "567", "877", "1516" ]
+, [ 10, "9D9C70F6-D007-4D62-9AD9-0B1E5F1F5147", 10, 1519141552, "697395", 1519141552, "697395", null, "Frederick County", "88995", "163563", "4507", "7670", "41251", "32627", "12514", "38413", "26581", "192078", "135872", "128721", "7151", "5.3", "127027", "77.3", "9.9", "2.9", "2.2", "1.2", "6.5", "85715", "64219", "4.8", "93.9", "93645", "95.0", "5.0", "243465", "174249", "120072", "123393", "197960", "22196", "10701", "646", "146", "4187", "7629", "20485" ]
+, [ 11, "139B475D-0589-4A57-867F-FBB18B798FF1", 11, 1519141552, "697395", 1519141552, "697395", null, "Garrett County", "11644", "21250", "806", "1632", "9007", "3971", "1745", "2205", "1884", "24658", "14821", "13995", "826", "5.6", "13790", "77.6", "11.0", "0.6", "3.6", "0.5", "6.6", "46277", "8177", "9.0", "91.1", "19080", "61.0", "39.0", "29677", "23695", "14701", "14976", "28842", "187", "93", "45", "6", "15", "489", "301" ]
+, [ 12, "B6FEDB86-DF28-4973-A728-1264409D4955", 12, 1519141552, "697395", 1519141552, "697395", null, "Harford County", "92497", "171128", "4013", "8377", "47611", "38363", "13782", "35441", "23541", "199608", "136014", "127908", "8106", "6.0", "127349", "83.4", "8.7", "1.6", "1.4", "0.8", "4.2", "81052", "66516", "5.8", "95.4", "98277", "94.1", "5.9", "249776", "187911", "122076", "127700", "199268", "33742", "6478", "443", "8", "2806", "7031", "10208" ]
+, [ 13, "34DDABEF-0B4E-448B-A082-0AA1355B2E45", 13, 1519141552, "697395", 1519141552, "697395", null, "Howard County", "109872", "207335", "4262", "5419", "29129", "30387", "11572", "62207", "64359", "241509", "173462", "165567", "7895", "4.6", "164257", "81.3", "7.4", "3.6", "1.1", "1.1", "5.5", "113800", "82123", "3.5", "94.9", "115003", "95.5", "4.5", "308447", "209138", "151100", "157347", "183599", "56504", "51545", "499", "132", "4356", "11812", "19595" ]
+, [ 14, "14BFFFBA-E5AB-4C0B-A5E5-559DE54FDBE6", 14, 1519141552, "697395", 1519141552, "697395", null, "Kent County", "7683", "13928", "672", "1099", "4582", "2511", "810", "2299", "1955", "16817", "9640", "9100", "540", "5.6", "8919", "68.2", "8.6", "1.6", "10.5", "1.9", "9.1", "55028", "4654", "6.6", "93.4", "10667", "72.0", "28.0", "19819", "15870", "9539", "10280", "16302", "2949", "207", "36", "0", "24", "301", "870" ]
+, [ 15, "FA8948DA-E70B-43E9-AF0B-A0E70CAD4B78", 15, 1519141552, "697395", 1519141552, "697395", null, "Montgomery County", "367764", "703977", "35413", "26792", "98816", "97786", "36121", "186973", "222076", "811165", "578875", "545236", "33639", "5.8", "537814", "65.4", "9.6", "15.8", "2.2", "1.3", "5.7", "100352", "256128", "4.7", "90.7", "385485", "95.4", "4.6", "1026371", "641531", "494612", "531759", "566239", "182774", "149770", "2857", "503", "81619", "42609", "190550" ]
+, [ 16, "8A62D9D7-7489-4AAB-B69C-332051AEEA39", 16, 1519141552, "697395", 1519141552, "697395", null, "Prince George's County", "306711", "597885", "44633", "40181", "154686", "135389", "34936", "107860", "80200", "715768", "510407", "469724", "40683", "8.0", "462632", "65.9", "11.5", "16.4", "2.1", "1.2", "2.8", "75925", "202160", "6.9", "87.1", "330708", "92.7", "7.3", "897693", "589561", "431752", "465941", "173881", "570138", "38063", "3449", "269", "86885", "25008", "150268" ]
+, [ 17, "F2354B19-BC50-454B-86F0-FB20BF8D3CF1", 17, 1519141552, "697395", 1519141552, "697395", null, "Queen Anne's County", "17785", "34080", "744", "2132", "10168", "6222", "2895", "7229", "4690", "39204", "26751", "25592", "1159", "4.3", "25058", "78.9", "9.4", "1.8", "1.6", "1.1", "7.2", "85891", "13162", "4.4", "95.0", "20754", "85.7", "14.3", "48712", "37196", "24151", "24561", "43698", "3522", "364", "39", "24", "272", "793", "1668" ]
+, [ 18, "AB730FA1-44DB-44BE-ADBE-89E2496501CE", 18, 1519141552, "697395", 1519141552, "697395", null, "St. Mary's County", "38978", "72507", "2192", "5145", "21929", "15739", "5821", "12584", "9097", "86260", "56773", "54271", "2502", "4.4", "55157", "83.6", "8.7", "2.3", "2.3", "0.9", "2.2", "86810", "27876", "5.4", "94.0", "43276", "90.1", "9.9", "110675", "81421", "55176", "55499", "87669", "15568", "2964", "217", "31", "616", "3610", "5136" ]
+, [ 19, "FA87CC21-6C84-44A9-BED4-EAFB0F12BCAC", 19, 1519141552, "697395", 1519141552, "697395", null, "Somerset County", "8328", "16959", "944", "2591", "7075", "3233", "746", "1356", "1014", "22097", "9020", "8263", "757", "8.4", "8013", "82.3", "5.3", "1.3", "4.5", "1.5", "5.1", "35886", "5147", "20.6", "90.9", "11244", "74.1", "25.9", "25899", "20817", "13936", "11963", "13719", "10837", "269", "69", "14", "384", "607", "937" ]
+, [ 20, "F68ADCF3-AD78-4E9B-9864-10501F143918", 20, 1519141552, "697395", 1519141552, "697395", null, "Talbot County", "16481", "28138", "1057", "1992", "7378", "5786", "1842", "5392", "4691", "31511", "18716", "17595", "1121", "6.0", "17383", "79.5", "9.6", "1.1", "2.5", "1.4", "5.9", "61395", "11001", "6.9", "93.1", "20110", "82.0", "18.0", "37668", "29501", "17733", "19935", "31262", "4172", "525", "79", "38", "348", "1244", "2298" ]
+, [ 21, "32A98EE8-ABD2-4D56-8A1C-F3CB44C0C0F3", 21, 1519141552, "697395", 1519141552, "697395", null, "Washington County", "56094", "103724", "3239", "10383", "39363", "22152", "7741", "12720", "8126", "120024", "72526", "67117", "5409", "7.5", "65935", "80.9", "9.9", "1.2", "2.1", "1.1", "4.8", "56316", "37610", "9.7", "92.1", "61199", "91.7", "8.3", "149571", "113142", "76043", "73528", "124903", "15402", "2383", "313", "69", "1040", "5461", "6283" ]
+, [ 22, "12803BEF-6A38-449A-908A-5B9C7171E7C3", 22, 1519141552, "697395", 1519141552, "697395", null, "Wicomico County", "37170", "63454", "2440", "4817", "21263", "13381", "4181", "9966", "7406", "81673", "53218", "49106", "4112", "7.7", "47925", "83.7", "9.1", "0.8", "2.3", "1.6", "2.6", "53508", "24539", "10.5", "90.9", "41911", "88.7", "11.3", "101527", "74621", "48364", "53163", "69094", "25001", "3232", "214", "64", "979", "2943", "4968" ]
+, [ 23, "7ECBADFA-1007-4CCF-A755-B79C98B124C5", 23, 1519141552, "697395", 1519141552, "697395", null, "Worcester County", "21010", "38616", "1122", "2881", "12471", "8085", "2497", "7325", "4235", "43275", "25713", "23728", "1985", "7.7", "23365", "80.5", "6.6", "2.3", "2.9", "2.1", "5.7", "57227", "13421", "7.7", "92.2", "55822", "37.6", "62.4", "51441", "41257", "24999", "26442", "42568", "7056", "727", "80", "58", "122", "830", "1726" ]
+, [ 24, "3987AFF0-6609-4757-B796-793B14E105CA", 24, 1519141552, "697395", 1519141552, "697395", null, "Baltimore city", "242416", "422021", "21605", "48234", "124847", "82268", "19644", "66163", "59260", "502739", "310323", "274906", "35417", "11.4", "270104", "59.8", "9.2", "18.4", "6.7", "2.2", "3.7", "44262", "124615", "18.3", "91.0", "296923", "81.6", "18.4", "621000", "462193", "292168", "328832", "187894", "391160", "15712", "1799", "342", "10065", "14028", "29537" ]
+ ]
+}
